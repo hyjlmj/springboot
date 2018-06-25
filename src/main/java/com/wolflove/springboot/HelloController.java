@@ -10,6 +10,7 @@ public class HelloController {
     @RequestMapping("/hello")
     public  String  sayhello(Model m){
         m.addAttribute("test","test");
+        m.addAttribute("test1","test1");
         return "hello";
     }
 }
